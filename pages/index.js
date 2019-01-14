@@ -5,16 +5,22 @@ import React from 'react'
 import App from '../layouts/app'
 
 // UI
-import { typography } from '../ui/theme'
+import { typography, colors, designTokens } from '../ui/theme'
+
+// Root
+import pkg from '../package'
 
 const Home = () => (
   <App>
-    <div>
-      <h1>Atryto</h1>
-    </div>
+    <main>
+      <div>
+        <h1>{pkg.name}</h1>
+        <h2>{pkg.description}</h2>
+      </div>
+    </main>
 
     <style jsx>{`
-      div {
+      main {
         display: flex;
         align-items: center;
         height: 100vh;
@@ -27,6 +33,14 @@ const Home = () => (
         font-size: ${typography.h100.fontSize};
         line-height: ${typography.h100.lineHeight};
         font-weight: ${typography.h100.fontWeight};
+        margin-bottom: ${designTokens.spacing};
+      }
+
+      h2 {
+        font-size: ${typography.h400.fontSize};
+        line-height: ${typography.h400.lineHeight};
+        font-weight: ${typography.h400.fontWeight};
+        color: ${colors.gray.lighter};
       }
     `}</style>
   </App>

@@ -1,7 +1,7 @@
 {
-  "name": "atryto",
+  "name": "Atryto",
   "version": "0.0.0",
-  "description": "Atryto",
+  "description": "Compare and exchange money and crytocurrency",
   "main": "index.js",
   "repository": "git@github.com:bukinoshita/atryto.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
