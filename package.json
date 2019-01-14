@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "xo --quiet"
   },
   "dependencies": {
     "hex-rgb": "^3.0.0",
