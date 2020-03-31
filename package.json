@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "hex-rgb": "^3.0.0",
-    "next": "^7.0.2",
+    "next": "^9.3.2",
     "next-offline": "^3.3.3",
     "polished": "^2.3.3",
     "prop-types": "^15.6.2",
